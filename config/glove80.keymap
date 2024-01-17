@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&caps_word>
-        }
+        };
 
         magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
