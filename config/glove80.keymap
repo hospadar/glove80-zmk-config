@@ -99,7 +99,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "AUTO_SNAKE";
             #binding-cells = <0>;
-            bindings = <&kp RSHIFT>, <&kt RSHIFT>;
+            bindings = <&kp RSHIFT>, <&kt RSHIFT>, <&to 1>;
         };
     };
 
